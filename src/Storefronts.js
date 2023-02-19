@@ -1,5 +1,8 @@
 import React from "react";
 import Store from "./Store";
+import storeone from "./images/storeone.png";
+import storetwo from "./images/storetwo.png";
+import storethree from "./images/storethree.png";
 class Storefronts extends React.Component {
  constructor(props){
         super(props);
@@ -13,15 +16,17 @@ class Storefronts extends React.Component {
         <div id="storefronts">
             <h2>Shuttered Businesses In The Castro</h2>
             <div id="storefronts-container">
-                <Store image_url={this.images[0]} details= {this.text[0]}/>
-                <Store image_url={this.images[1]} details= {this.text[1]}/>
-                <Store image_url={this.images[2]} details= {this.text[2]}/>
-                <Store image_url={this.images[0]} details= {this.text[0]}/>
-                <Store image_url={this.images[1]} details= {this.text[1]}/>
-                <Store image_url={this.images[2]} details= {this.text[2]}/>
-                <Store image_url={this.images[0]} details= {this.text[0]}/>
-                <Store image_url={this.images[1]} details= {this.text[1]}/>
-                <Store image_url={this.images[2]} details= {this.text[2]}/>
+                <Store image_url={storeone} details= {this.text[0]}/>
+                <Store image_url={storetwo} details= {this.text[1]}/>
+                <Store image_url={storethree} details= {this.text[2]}/>
+                <Store image_url={storeone} details= {this.text[0]}/>
+                <Store image_url={storetwo} details= {this.text[1]}/>
+                <Store image_url={storethree} details= {this.text[2]}/>
+                <Store image_url={storeone} details= {this.text[0]}/>
+                <Store image_url={storetwo} details= {this.text[1]}/>
+                <Store image_url={storethree} details= {this.text[2]}/>
+
+                
 
                 
                 
