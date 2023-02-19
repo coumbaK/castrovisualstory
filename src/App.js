@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Storefronts from './Storefronts';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
          Operating in the storefront where Harvey Milk’s camera shop once stood, the gallery hopes to honor his legacy by creating safe spaces where queer people can express themselves freely. </p>
          <p>“Being able to be in the space and give queer people the opportunity to try something, to teach something, to celebrate something is the central focus of what we're doing,” Co-Founder Devlin Shand said.</p>
          <p>To facilitate this, Queer AF hosts wellness workshops, clothing swaps, drag makeup classes, and social events that are open to the LGBTQIA+ community. </p>
-         {/* insert visual 1 */}
+          <Storefronts />
          <p>Louis Cullen, Assistant Manager at Cliff’s Hardware, has seen the neighborhood change before his eyes. Cullen, who has been living in the area since the ‘90s, has observed business after business close their doors as the price of living has become unmanageable. 
          Cullen blames property owners in the area leaving their spaces vacant to use as tax write-offs.</p>
          <p>“What was once community-owned and operated has become overrun by corporate firms, taking the culture out of the Castro,” Cullen said. “It started even before the pandemic. The Castro isn’t what it used to be.”</p>
