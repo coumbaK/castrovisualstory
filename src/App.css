@@ -74,3 +74,18 @@ img {
   
 
 }
+#map {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height : 70vh;
+  width : 100vw;
+  text-align: center;
+
+
+}
+#selections{
+  height : 30%;
+  width: 100%;
+}
