@@ -1,11 +1,20 @@
 import React from "react"
 import { ComposableMap, Geographies, Geography } from "react-simple-maps"
 
-const geoUrl ="https://raw.githubusercontent.com/coumbaK/castrovisualstory/master/src/map.geojson?token=GHSAT0AAAAAAB54OFY34SJZDCGNABIFBPQ2Y7TBSOA"
+const geoUrl ="map.json"
   
   function MapChart() {
     return (
-      <ComposableMap>
+      <ComposableMap
+        width={800}
+  height={800}
+  projection="geoAlbers"
+  projectionConfig={{
+    center: [0, 55.4],
+    rotate: [4.4, 0, 0],
+    parallels: [50, 60],
+    scale: 4000,
+  }}>
         <Geographies geography={geoUrl}>
           {({ geographies }) =>
             geographies.map((geo) => (
