@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Storefronts from './Storefronts';
+import MapChart from './Map'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
          <p>Louis Cullen, Assistant Manager at Cliff’s Hardware, has seen the neighborhood change before his eyes. Cullen, who has been living in the area since the ‘90s, has observed business after business close their doors as the price of living has become unmanageable. 
          Cullen blames property owners in the area leaving their spaces vacant to use as tax write-offs.</p>
          <p>“What was once community-owned and operated has become overrun by corporate firms, taking the culture out of the Castro,” Cullen said. “It started even before the pandemic. The Castro isn’t what it used to be.”</p>
-         {/* insert visual 2 */}
+         <MapChart/>
          <p>Shand, too, has observed the change in atmosphere. “As [the Castro] becomes more homogenized by the tech industry and this digital way of connecting, the people who create the culture who are on the ground, putting the work in, can no longer afford to do that in San Francisco,” says Shand. 
          <p>“We've lost so much creativity and so much spontaneous energy because those folks have to find somewhere where they can exist and be able to create at the same time, and that's something that we're trying slowly and bit by bit to get back.”</p>
          While 22-year-old Doris Mantley has not been around the Castro long enough to see it change, she believes digital connection has benefited the LGBTQ community. </p>
