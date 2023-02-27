@@ -1,40 +1,45 @@
 import React from "react";
 import Store from "./Store";
-import storeone from "./images/storeone.png";
-import storetwo from "./images/storetwo.png";
-import storethree from "./images/storethree.png";
+import storedetails from "./stores.json";
+
 
 //tbd media queries for responsiveness on mobile
 class Storefronts extends React.Component {
  constructor(props){
         super(props);
-        this.images = ["https://o.remove.bg/downloads/9f65b234-f323-4e53-807c-70680ccdb13e/Screen_Shot_2023-02-18_at_6.57.54_PM-removebg-preview.png","https://o.remove.bg/downloads/6455ecb8-5625-4a8f-811b-96bdc062f5c4/Screen_Shot_2023-02-18_at_6.57.42_PM-removebg-preview.png", "https://o.remove.bg/downloads/a7793821-7435-438a-8a8d-4e579f939f32/Screen_Shot_2023-02-18_at_6.57.37_PM-removebg-preview.png"]
-        this.text = ["Opened in 2003, Closed Down March 2022 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit ut aliquam purus sit amet luctus. Vitae congue mauris rhoncus aenean vel elit.", "Opened in 2003, Closed Down March 2022 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit ut aliquam purus sit amet luctus. Vitae congue mauris rhoncus aenean vel elit.", "Opened in 2003, Closed Down March 2022 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit ut aliquam purus sit amet luctus. Vitae congue mauris rhoncus aenean vel elit.",
-        "Opened in 2003, Closed Down March 2022 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit ut aliquam purus sit amet luctus. Vitae congue mauris rhoncus aenean vel elit.",
-    ]
+        this.images = []
+        this.text = []
+        this.state= {activeStore: null} 
+        this.GetDetails()
     }
+
+  SetActiveStore = (id) => {
+    this.setState({activeStore: id})
+  }
+  GetDetails(){
+    for (let i = 0; i < 10; i++){
+        console.log(i)
+        this.images.push(require("./storeimages/house" + i + ".svg"))
+        this.text.push(storedetails[i])
+    }
+    
+  }
+   
   render() {
+    
     return (
+     
         <div id="storefronts">
             <h2>Shuttered Businesses In The Castro</h2>
             <div id="storefronts-container">
-                <Store image_url={storeone} details= {this.text[0]}/>
-                <Store image_url={storetwo} details= {this.text[1]}/>
-                <Store image_url={storethree} details= {this.text[2]}/>
-                <Store image_url={storeone} details= {this.text[0]}/>
-                <Store image_url={storetwo} details= {this.text[1]}/>
-                <Store image_url={storethree} details= {this.text[2]}/>
-                <Store image_url={storeone} details= {this.text[0]}/>
-                <Store image_url={storetwo} details= {this.text[1]}/>
-                <Store image_url={storethree} details= {this.text[2]}/>
-                <Store image_url={storetwo} details= {this.text[1]}/>
-                <Store image_url={storethree} details= {this.text[2]}/>
-                <Store image_url={storethree} details= {this.text[2]}/>
+                {this.images.map((image, index) => (
+                    <Store key={index} id={index} image_url={image} details={this.text[index]} active={this.state.activeStore} setActive={this.SetActiveStore} />
+                ))}
+            
 
                 
-
-                
-                
+                 
+                      
             </div>
             
             

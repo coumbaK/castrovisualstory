@@ -3,23 +3,26 @@ class Store extends React.Component {
 
     constructor(props){
         super(props);
+        
         this.state = {visibledetails: false};
-        this.toggleDetails = this.toggleDetails.bind(this);
+       
     }
-    toggleDetails()  {
-        
-        this.setState({visibledetails: !this.state.visibledetails});
-        
-        console.log("clicked")
-    }
+  
 
-    
+  onClick = (e) => {
+    console.log(this.props.details)
+    this.props.setActive(this.props.id);
+    this.setState({visibledetails: !this.state.visibledetails})
+
+  }
+
+
 
   render() {
     return (
-        <div class="store">
-            <img src={this.props.image_url} alt="storefront" onClick={this.toggleDetails} />
-            {this.state.visibledetails ? <div class="store-details">{this.props.details}</div> : null}
+        <div class="store"  >
+            <img src={this.props.image_url} alt="storefront" onClick={this.onClick} />
+            {this.state.visibledetails && this.props.id===this.props.active ? <div class="store-details">{this.props.details}</div> : null}
        </div>
 
     );
