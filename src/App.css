@@ -76,16 +76,22 @@ img {
 }
 #map {
   display:flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height : 70vh;
-  width : 100vw;
-  text-align: center;
+  height: 60vh;
+  width : 80vw;
+
 
 
 }
-#selections{
-  height : 30%;
-  width: 100%;
+
+.leaflet-container {
+ height: 100%;
+ width : 55vw;
+
+
+
+}
+#search{
+  height : 100%;
+  width : 25vw;
+
 }

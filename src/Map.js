@@ -1,11 +1,8 @@
 import React from "react"
 import geojson from './map.json';
-import L from 'leaflet';
-import { Map, TileLayer, GeoJSON } from 'react-leaflet';
 import { geoMercator, geoPath } from 'd3-geo';
 import { select } from 'd3-selection';
-import 'leaflet/dist/leaflet.css';
-import { findAllByAltText } from "@testing-library/react";
+
 
 
 //tbd:  add leaflet layer to show actual street map
