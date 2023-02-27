@@ -1,17 +1,24 @@
 {
   "files": {
     "main.css": "/castrovisualstory/static/css/main.c22bfcdc.css",
-    "main.js": "/castrovisualstory/static/js/main.ebc9f10c.js",
-    "static/media/storethree.png": "/castrovisualstory/static/media/storethree.d382ff39fd2139f103f0.png",
-    "static/media/storeone.png": "/castrovisualstory/static/media/storeone.be1805ebb7539719d594.png",
-    "static/media/storetwo.png": "/castrovisualstory/static/media/storetwo.3cf76f32a3a04c7deaba.png",
+    "main.js": "/castrovisualstory/static/js/main.cfd4166e.js",
+    "static/media/house5.svg": "/castrovisualstory/static/media/house5.b8340a9ea4b7f8d2391b.svg",
+    "static/media/house0.svg": "/castrovisualstory/static/media/house0.8e774c99247a5203e266.svg",
+    "static/media/house2.svg": "/castrovisualstory/static/media/house2.b7834871b03d45958377.svg",
+    "static/media/house3.svg": "/castrovisualstory/static/media/house3.972fbdb408aaf8a03e9f.svg",
+    "static/media/house1.svg": "/castrovisualstory/static/media/house1.329b52d02e500ce21fcf.svg",
+    "static/media/house9.svg": "/castrovisualstory/static/media/house9.20460855babadba30d9b.svg",
+    "static/media/house4.svg": "/castrovisualstory/static/media/house4.dc730e6d5ae2861bbdb0.svg",
+    "static/media/house8.svg": "/castrovisualstory/static/media/house8.1f411ee84f38f0c1d626.svg",
+    "static/media/house6.svg": "/castrovisualstory/static/media/house6.22552705a111097dcfdd.svg",
     "static/media/logo.svg": "/castrovisualstory/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/house7.svg": "/castrovisualstory/static/media/house7.28cd35f1e481e59f488d.svg",
     "index.html": "/castrovisualstory/index.html",
     "main.c22bfcdc.css.map": "/castrovisualstory/static/css/main.c22bfcdc.css.map",
-    "main.ebc9f10c.js.map": "/castrovisualstory/static/js/main.ebc9f10c.js.map"
+    "main.cfd4166e.js.map": "/castrovisualstory/static/js/main.cfd4166e.js.map"
   },
   "entrypoints": [
     "static/css/main.c22bfcdc.css",
-    "static/js/main.ebc9f10c.js"
+    "static/js/main.cfd4166e.js"
   ]
 }
