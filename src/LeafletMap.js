@@ -3,6 +3,8 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { icon, popup } from "leaflet";
 import stores from "./businesses.json";
 import Search from "./Search";
+import iconimg1 from "./iconrainbow.png";
+import iconimg2 from "./icongray.png";
 
 
 
@@ -23,7 +25,20 @@ class LeafMap extends React.Component {
     
   }
   render() {
-
+    const iconrainbow = icon({
+      iconUrl: iconimg1,
+      iconSize: [30, 30],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
+    });
+    const icongray = icon({
+      iconUrl: iconimg2,
+      iconSize: [30, 30],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
+    });
 
     return (
       
@@ -40,10 +55,7 @@ class LeafMap extends React.Component {
                 this.setState({ activeStore: store });
               }
             }} 
-            icon={icon({
-              iconUrl: "https://o.remove.bg/downloads/9e73be4c-1d9f-4d29-b673-f6fcfcc6e96e/Screen_Shot_2023-02-26_at_10.20.04_PM-removebg-preview.png",
-              iconSize: [30, 30]
-            })}
+            icon= {iconrainbow}
           >
 
           </Marker>
@@ -56,10 +68,7 @@ class LeafMap extends React.Component {
                 this.setState({ activeStore: store });
               }
             }} 
-            icon={icon({
-              iconUrl: "https://o.remove.bg/downloads/9f982cd8-f2e9-4298-a545-e4b3be2c6e27/dooooo-removebg-preview.png",
-              iconSize: [30, 30]
-            })}
+            icon= {icongray}
             
           >
 

@@ -28,7 +28,7 @@ class Search extends React.Component{
             <div id="search" value={this.state.search} onChange={this.handleSearch}>
                 <input type="search" placeholder="Search" />
 
-                <ul> {this.state.search==="" ? <div> Start Typing The Name Of A Place In The Castro or Move Around The Map To Find Places</div> :
+                <ul> {this.state.search==="" ? <div> This map depicts businesses currently open in the Castro. Move around the map or type in the search bar to discover which are queer-owned, black-owned, and women-owned. </div> :
                     this.state.results.map(store => (
 
                         <li key={store.properties.key} onClick= {this.props.updateActive}> 
