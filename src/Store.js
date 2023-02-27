@@ -1,4 +1,5 @@
 import React from "react";
+import sign from "./sign.png";
 class Store extends React.Component {
 
     constructor(props){
@@ -22,7 +23,10 @@ class Store extends React.Component {
     return (
         <div class="store"  >
             <img src={this.props.image_url} alt="storefront" onClick={this.onClick} />
-            {this.state.visibledetails && this.props.id===this.props.active ? <div class="store-details">{this.props.details}</div> : null}
+            {this.state.visibledetails && this.props.id===this.props.active ? <div class="store-details">
+            <img src={sign} alt="sign" />
+            {this.props.details}
+            </div> : null}
        </div>
 
     );
