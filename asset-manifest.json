@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/castrovisualstory/static/css/main.c22bfcdc.css",
-    "main.js": "/castrovisualstory/static/js/main.eaa6cc64.js",
+    "main.css": "/castrovisualstory/static/css/main.e40597a3.css",
+    "main.js": "/castrovisualstory/static/js/main.74671a61.js",
+    "static/media/headlines.png": "/castrovisualstory/static/media/headlines.75ddbd413189a3118ebc.png",
     "static/media/house5.svg": "/castrovisualstory/static/media/house5.b8340a9ea4b7f8d2391b.svg",
     "static/media/house0.svg": "/castrovisualstory/static/media/house0.8e774c99247a5203e266.svg",
     "static/media/house2.svg": "/castrovisualstory/static/media/house2.b7834871b03d45958377.svg",
@@ -14,11 +15,11 @@
     "static/media/house6.svg": "/castrovisualstory/static/media/house6.22552705a111097dcfdd.svg",
     "static/media/house7.svg": "/castrovisualstory/static/media/house7.28cd35f1e481e59f488d.svg",
     "index.html": "/castrovisualstory/index.html",
-    "main.c22bfcdc.css.map": "/castrovisualstory/static/css/main.c22bfcdc.css.map",
-    "main.eaa6cc64.js.map": "/castrovisualstory/static/js/main.eaa6cc64.js.map"
+    "main.e40597a3.css.map": "/castrovisualstory/static/css/main.e40597a3.css.map",
+    "main.74671a61.js.map": "/castrovisualstory/static/js/main.74671a61.js.map"
   },
   "entrypoints": [
-    "static/css/main.c22bfcdc.css",
-    "static/js/main.eaa6cc64.js"
+    "static/css/main.e40597a3.css",
+    "static/js/main.74671a61.js"
   ]
 }
