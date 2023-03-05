@@ -13,19 +13,28 @@
   align-items : center;
   justify-content : center;
 }
-#content p {
-  max-width: 45vw;
-  text-align: left;
-}
+
 #title {
   text-align: center;
   font-family: 'Alegreya', serif;
   margin-bottom: 0;
 }
-#content p {
+#content .story {
   font-family:"Lora", sans-serif;
   line-height: 1.5;
   word-wrap: break-word;
+  width: 45vw;
+  text-align: left;
+}
+#content .quote {
+  font-size : 20px;
+  font-family:"Lora", sans-serif;
+  line-height: 1.5;
+  word-wrap: break-word;
+  width: 60vw;
+  text-align: center;
+  font-style: italic;
+
 }
 #byline {
   font-family: 'Alegreya', serif;
@@ -40,6 +49,7 @@
   margin-top: 2em;
   margin-bottom: 2em;
   width : 70vw;
+
   
 }
 #storefronts-container {
@@ -51,8 +61,6 @@
   gap : 0;
 }
 .store {
-  width: 250px;
-
   margin: 0;
   position : relative;
 }
@@ -64,19 +72,32 @@ img {
   object-position: center;
 }
 .store .store-details {
-  position: relative;
-  color : rgb(0, 0, 0);
+  max-width : 98%;
+  height : 70%;
+  position: absolute;
+  top: 0;
+  color : rgb(0, 0, 0); 
 
 }
-.store-details img {
-  position: relative;
-  top : 0;
 
+.store-details img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.store-details p {
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  line-height: 1.25;
 }
 #map {
   display:flex;
   height: 60vh;
-  width : 80vw;
+  width: 80vw;
+  max-width: 800px;
+  gap : 20px;
 
 
 
@@ -90,7 +111,46 @@ img {
 
 }
 #search{
+  display : flex;
+  flex-direction : column;
   height : 100%;
   width : 25vw;
+
+
+  
+
+}
+#search input {
+  width : 100%;
+  height : 10%;
+  font-size : 20px;
+  padding : 10px;
+  border : 1px solid black;
+  border-radius : 5px;
+}
+#search ul {
+  list-style-type : none;
+  text-align: left;
+  padding : 10px;
+  margin : 0;
+  border-radius: 5px;
+  height :90%;
+  overflow-y : scroll;
+  border : 1px solid black;
+}
+#search li {
+  padding : 10px;
+  cursor : pointer;
+}
+#header {
+  width : 100vw;
+
+}
+
+#header img{
+width : 100%;
+height : 100%;
+object-fit : cover;
+object-position : center;
 
 }

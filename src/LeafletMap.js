@@ -44,7 +44,7 @@ class LeafMap extends React.Component {
       
       <div id= "map">
      
-      <MapContainer center={[37.7617, -122.4351]} zoom={17} scrollWheelZoom={false}>
+      <MapContainer center={[37.761, -122.435]} zoom={17} scrollWheelZoom={false}>
         {stores.features.map(store => (
           store.properties.queer=== "true" ? 
           <Marker

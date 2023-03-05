@@ -25,7 +25,7 @@ class Store extends React.Component {
             <img src={this.props.image_url} alt="storefront" onClick={this.onClick} />
             {this.state.visibledetails && this.props.id===this.props.active ? <div class="store-details">
             <img src={sign} alt="sign" />
-            {this.props.details}
+            <p>{this.props.details}</p>
             </div> : null}
        </div>
 
