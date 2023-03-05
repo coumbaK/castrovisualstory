@@ -18,7 +18,6 @@ class Storefronts extends React.Component {
   }
   GetDetails(){
     for (let i = 0; i < 10; i++){
-        console.log(i)
         this.images.push(require("./storeimages/house" + i + ".svg"))
         this.text.push(storedetails[i])
     }
