@@ -1,7 +1,7 @@
 import React from "react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { icon, popup } from "leaflet";
-import stores from "./businesses.json";
+import stores from "./map.json";
 import Search from "./Search";
 import iconimg1 from "./iconrainbow.png";
 import iconimg2 from "./icongray.png";
