@@ -1,8 +1,11 @@
 {
   "files": {
-    "main.css": "/castrovisualstory/static/css/main.1bb22493.css",
-    "main.js": "/castrovisualstory/static/js/main.1cd971d0.js",
+    "main.css": "/castrovisualstory/static/css/main.10429563.css",
+    "main.js": "/castrovisualstory/static/js/main.14c5f651.js",
     "static/media/headlines.png": "/castrovisualstory/static/media/headlines.75ddbd413189a3118ebc.png",
+    "static/media/sid3.png": "/castrovisualstory/static/media/sid3.b7905ab775f1e5d2fb64.png",
+    "static/media/sid2.png": "/castrovisualstory/static/media/sid2.faab4705073e4eab5903.png",
+    "static/media/sid4.png": "/castrovisualstory/static/media/sid4.6bfa3e53025f7b40f05d.png",
     "static/media/sid1.png": "/castrovisualstory/static/media/sid1.ff56948617f9255cc803.png",
     "static/media/Queeraf.png": "/castrovisualstory/static/media/Queeraf.b8b9e773cdbbbe9e3ef9.png",
     "static/media/house0.png": "/castrovisualstory/static/media/house0.f7a83fbf09d248990654.png",
@@ -17,11 +20,11 @@
     "static/media/iconrainbow.png": "/castrovisualstory/static/media/iconrainbow.c7958d5a3f71a3d68153.png",
     "static/media/house7.png": "/castrovisualstory/static/media/house7.ed003ac31a8dea3ff72b.png",
     "index.html": "/castrovisualstory/index.html",
-    "main.1bb22493.css.map": "/castrovisualstory/static/css/main.1bb22493.css.map",
-    "main.1cd971d0.js.map": "/castrovisualstory/static/js/main.1cd971d0.js.map"
+    "main.10429563.css.map": "/castrovisualstory/static/css/main.10429563.css.map",
+    "main.14c5f651.js.map": "/castrovisualstory/static/js/main.14c5f651.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bb22493.css",
-    "static/js/main.1cd971d0.js"
+    "static/css/main.10429563.css",
+    "static/js/main.14c5f651.js"
   ]
 }
