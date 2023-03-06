@@ -188,11 +188,11 @@ object-position : center;
   display:flex ;
   width : 45vw;
   height : 40vh;
-  padding : 2%;
+  
   gap : 2%;
-  justify-content: center;
-  align-items: center;
-  margin : 2%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 3%;
 }
 
 .art{
@@ -203,6 +203,8 @@ object-position : center;
 .quoteimg p {
   width: 25%;
   height: 100%;
+  font-size: 20px;
+
 }
 .img {
   width: 100%;
