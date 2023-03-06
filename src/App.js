@@ -26,7 +26,7 @@ function App() {
           <h6>Queer Arts Featured Storefront</h6>
          </div>
          </div>
-         <p class="story"> Operating in the storefront where Harvey Milk’s camera shop once stood, the gallery hopes to honor his legacy by creating safe spaces where queer people can express themselves freely.</p>
+        
          <p className= "story">“Being able to be in the space and give queer people the opportunity to try something, to teach something, to celebrate something is the central focus of what we're doing,” Co-Founder Devlin Shand said.</p>
          <p className= "story">Sid Deshpande, a ceramics sculptor, is grateful to have spaces like Queer AF to feature their work. As a non-binary artist of color, Deshpande has found gaining access to gallery space much more challenging for those who do not fit the cis-white-male standard. </p>
          <div class= "quoteimg">
