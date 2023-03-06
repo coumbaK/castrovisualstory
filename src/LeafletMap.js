@@ -42,9 +42,9 @@ class LeafMap extends React.Component {
     });
 
     return (
+      <div id="map">
+      <div id= "mapin">
       
-      <div id= "map">
-     
       <MapContainer center={[37.761, -122.435]} zoom={17} scrollWheelZoom={false}>
         {stores.features.map(store => (
           store.properties.queer=== "true" ? 
@@ -109,6 +109,10 @@ class LeafMap extends React.Component {
       <Search updateActive={this.SetStore} stores= {stores.features} active={this.state.activeStore} />
       
       </div>
+      <div class="instructions">The map above depicts businesses currently open in the Castro. Use the map above to explore which businesses in the area are queer-owned and/or small businesses.</div>
+      </div>
+      
+
     )
 
 

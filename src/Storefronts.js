@@ -40,7 +40,7 @@ class Storefronts extends React.Component {
                  
                       
             </div>
-            
+            <div class="instructions">Click on each storefront featured above to explore some of the businesses that have closed over the past years</div>
             
 
 
