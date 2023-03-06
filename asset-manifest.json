@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/castrovisualstory/static/css/main.265cb34f.css",
-    "main.js": "/castrovisualstory/static/js/main.46e6b404.js",
+    "main.css": "/castrovisualstory/static/css/main.8dc33013.css",
+    "main.js": "/castrovisualstory/static/js/main.ed768fff.js",
     "static/media/headlines.png": "/castrovisualstory/static/media/headlines.75ddbd413189a3118ebc.png",
-    "static/media/house5.svg": "/castrovisualstory/static/media/house5.b8340a9ea4b7f8d2391b.svg",
-    "static/media/house0.svg": "/castrovisualstory/static/media/house0.8e774c99247a5203e266.svg",
-    "static/media/house2.svg": "/castrovisualstory/static/media/house2.b7834871b03d45958377.svg",
-    "static/media/house3.svg": "/castrovisualstory/static/media/house3.972fbdb408aaf8a03e9f.svg",
+    "static/media/house0.png": "/castrovisualstory/static/media/house0.f7a83fbf09d248990654.png",
+    "static/media/house2.png": "/castrovisualstory/static/media/house2.2699512224073e3ca50f.png",
+    "static/media/house8.png": "/castrovisualstory/static/media/house8.603767deee617a1250d0.png",
+    "static/media/house6.png": "/castrovisualstory/static/media/house6.4c3029cdc661871f307f.png",
+    "static/media/house9.png": "/castrovisualstory/static/media/house9.dfa029e6f8ab2a6638bd.png",
+    "static/media/house4.png": "/castrovisualstory/static/media/house4.af8df61d3c6de9828acd.png",
+    "static/media/house5.png": "/castrovisualstory/static/media/house5.4788cf88c5a252d629dc.png",
+    "static/media/house3.png": "/castrovisualstory/static/media/house3.2bb4127d521d4e10c4c2.png",
+    "static/media/house1.png": "/castrovisualstory/static/media/house1.560ea004392002103f6f.png",
     "static/media/iconrainbow.png": "/castrovisualstory/static/media/iconrainbow.c7958d5a3f71a3d68153.png",
-    "static/media/house1.svg": "/castrovisualstory/static/media/house1.329b52d02e500ce21fcf.svg",
-    "static/media/house9.svg": "/castrovisualstory/static/media/house9.20460855babadba30d9b.svg",
-    "static/media/house4.svg": "/castrovisualstory/static/media/house4.dc730e6d5ae2861bbdb0.svg",
-    "static/media/house8.svg": "/castrovisualstory/static/media/house8.1f411ee84f38f0c1d626.svg",
-    "static/media/house6.svg": "/castrovisualstory/static/media/house6.22552705a111097dcfdd.svg",
-    "static/media/house7.svg": "/castrovisualstory/static/media/house7.28cd35f1e481e59f488d.svg",
+    "static/media/house7.png": "/castrovisualstory/static/media/house7.ed003ac31a8dea3ff72b.png",
     "index.html": "/castrovisualstory/index.html",
-    "main.265cb34f.css.map": "/castrovisualstory/static/css/main.265cb34f.css.map",
-    "main.46e6b404.js.map": "/castrovisualstory/static/js/main.46e6b404.js.map"
+    "main.8dc33013.css.map": "/castrovisualstory/static/css/main.8dc33013.css.map",
+    "main.ed768fff.js.map": "/castrovisualstory/static/js/main.ed768fff.js.map"
   },
   "entrypoints": [
-    "static/css/main.265cb34f.css",
-    "static/js/main.46e6b404.js"
+    "static/css/main.8dc33013.css",
+    "static/js/main.ed768fff.js"
   ]
 }
