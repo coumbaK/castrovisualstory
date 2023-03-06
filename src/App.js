@@ -3,6 +3,7 @@ import './App.css';
 import header from './headlines.png';
 import sid1 from './artimg/sid1.png';
 import queeraf from './Queeraf.png';
+import Slider from './carousel';
 
 import Storefronts from './Storefronts';
 
@@ -29,9 +30,9 @@ function App() {
          <p className= "story">“Being able to be in the space and give queer people the opportunity to try something, to teach something, to celebrate something is the central focus of what we're doing,” Co-Founder Devlin Shand said.</p>
          <p className= "story">Sid Deshpande, a ceramics sculptor, is grateful to have spaces like Queer AF to feature their work. As a non-binary artist of color, Deshpande has found gaining access to gallery space much more challenging for those who do not fit the cis-white-male standard. </p>
          <div class= "quoteimg">
-         <div class="img">
-         <img class="art" src ={sid1} alt = "Art Piece of Sid Desphande featured at Queer AF"/>
-          <h6>Sid Deshpande’s Ceramic Work Featured In Queer Arts Featured (seen above)</h6>
+         <div class="slider">
+            <Slider />
+             <h6>Sid Deshpande’s Ceramic Works Featured In Queer Arts Featured (seen above)</h6>
           </div>
           <p className= "quote">“I think Queer Arts Featured has been exceptional in having a pretty central location and voice in the Castro specifically for queer folks well beyond gender or race or any other identity markers,” Deshpande said. “I think [Devlin]'s just been really exceptional about not just having queer voices, but like thinking really intentionally about how to have intersectional queerness.”</p>
           

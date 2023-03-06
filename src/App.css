@@ -211,3 +211,8 @@ object-position : center;
   object-position: center;
   margin : 0;
 }
+
+
+.slider h6 {
+  margin-top: 50px;
+}
