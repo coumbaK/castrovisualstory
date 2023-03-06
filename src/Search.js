@@ -3,7 +3,7 @@ import React from "react";
 class Search extends React.Component{
     constructor(props){
         super(props);
-        this.state = {search: "", results:[], active : {} };
+        this.state = {search: "", results:[] };
     }
     handleSearch = (e) => {
         const results = this.props.stores.filter(store => 
@@ -40,7 +40,9 @@ class Search extends React.Component{
                 <input type="search" onChange={this.handleSearch} placeholder= "search" value={this.state.search} />
 
 
-                <ul> {this.state.search==="" ? <div> This map depicts businesses currently open in the Castro. Move around the map or type in the search bar to discover which are queer-owned, black-owned, and women-owned. </div> :
+                <ul> {this.state.search==="" ? this.props.stores.map(store => ( <li key={store.properties.key} onClick= {this.selectStore} value={store.properties.name}> 
+                            {store.properties.business}
+                        </li> )) :
                     this.state.results.map(store => (
 
                         <li key={store.properties.key} onClick= {this.selectStore} value={store.properties.name}> 

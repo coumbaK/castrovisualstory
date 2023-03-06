@@ -22,6 +22,7 @@ class LeafMap extends React.Component {
     const name = e.target.innerText;
     const store = stores.features.find(store => store.properties.business === name);
     this.setState({ activeStore: store });
+
     
   }
   render() {
@@ -66,6 +67,7 @@ class LeafMap extends React.Component {
             eventHandlers={{
               click: (e) => {
                 this.setState({ activeStore: store });
+
               }
             }} 
             icon= {icongray}
@@ -87,7 +89,8 @@ class LeafMap extends React.Component {
           >
             <div>
               <h2>{this.state.activeStore.properties.business}</h2>
-              <p>lorem ipsum </p>
+             
+              { <p>{this.state.activeStore.properties.description}</p> }
             </div>
           </Popup>
         )}
@@ -103,7 +106,7 @@ class LeafMap extends React.Component {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
       </MapContainer>
-      <Search updateActive={this.SetStore} stores= {stores.features} />
+      <Search updateActive={this.SetStore} stores= {stores.features} active={this.state.activeStore} />
       
       </div>
     )

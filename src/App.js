@@ -25,13 +25,20 @@ function App() {
           <p className= "story">“I think another thing that Devlin has really done well, which I haven't seen elsewhere, is just the sheer amount of community events Queer AF has been able to host over a short time,” said Deshpande. Queer AF hosts wellness workshops, clothing swaps, drag makeup classes, and social events that are open to the LGBTQIA+ community. </p>
           <p className= "story">Unfortunately, many retail spaces across the Castro have not been as lucky as Queer AF to remain open. Over 20 storefronts in the neighborhood sit vacant, plastered with “For Lease” banners from commercial real estate companies. What once was a bustling hub for the queer community has seemed to dissipate over the years. </p>
            <Storefronts />
+           <div class="instructions">
+           Click on each storefront featured above to explore some of the businesses that have closed over the past years
+           </div>
+
          <p className= "story">Louis Cullen, Assistant Manager at Cliff’s Hardware, has seen the neighborhood change before his eyes. Cullen, who has been living in the area since the ‘90s, has observed business after business close their doors as the price of living has become unmanageable. Cullen blames property owners in the area leaving their spaces vacant to use as tax write-offs. </p>
          <p className="quote">“It started even before the pandemic. The Castro isn’t what it used to be,” Cullen said. “What was once community-owned and operated has become overrun by corporate firms, taking the culture out of the Castro.”</p>
          <p className= "story">“What's interesting is that you have vacancies but you still have sky high rents,” USF Professor Rachel Brahinsky said. “And sometimes those things are connected, right, because… if we're talking about commercial rents, businesses get kicked out essentially by rent hikes. And then sometimes business owners will hold the place vacant for a while, rather than reduce the rent, right? They'll just sit on it and wait.” </p>
          <p className= "story">Brahinsky, a professor in the Urban Studies department at the University of San Francisco, specializes in human and social geography within American cities, with a longtime focus on San Francisco. According to Brahinsky, gentrification in the Castro area is nothing new. But, the area has remained predominantly made up of white gay men because they are the ones able to afford the increasing price of living. </p>
          <p className= "story">“As gay men start establishing households, you have two or more men in a household in our society where men still get paid more than women for the same jobs… so you'd have higher income households, essentially,” said Brahinsky. “And so the Castro starts concentrating this community that can handle the kind of rising gentrification of San Francisco more broadly. So it remains gay, but becomes increasingly more white, gay male, right, in terms of who's owning houses and living there.”</p>
-         <LeafMap/>
          
+          <h2>Map Of Queer-Owned businesses in The Castro</h2>
+         <LeafMap/>
+
+         <div class="instructions">The map above depicts businesses currently open in the Castro. Use the map above to explore which businesses in the area are queer-owned and/or small businesses.</div>
          <p className= "story">Shand, too, has observed the changes in the neighborhood due to the rising price of living. “As [the Castro] becomes more homogenized by the tech industry and this digital way of connecting, the people who create the culture who are on the ground, putting the work in, can no longer afford to do that in San Francisco,” says Shand. </p>
          <p className= "story">“We've lost so much creativity and so much spontaneous energy because those folks have to find somewhere where they can exist and be able to create at the same time, and that's something that we're trying slowly and bit by bit to get back.”</p>
          <p className= "story">While 22-year-old Doris Mantley has not been around the Castro long enough to see it change, she believes digital connection has benefited the LGBTQ community. 
